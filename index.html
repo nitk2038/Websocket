@@ -76,9 +76,7 @@
         const messages = document.getElementById('messages');
         form.addEventListener('submit', (e) => {
             e.preventDefault();
-            console.log(input);
             if(input.value) {
-                console.log(input.value);
                 socket.emit('chat message', input.value);
                 input.value = '';
             }
