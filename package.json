@@ -1,0 +1,16 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "Chat Application Prototype to Learn About websocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "nitk2038",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.21.0",
+    "socket.io": "4.8.0"
+  }
+}
